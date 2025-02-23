@@ -1,0 +1,40 @@
+.card-fidelity {
+    grid-area: B;
+}
+
+.card-fidelity-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.badget {
+    background-color: var(--base-gray-300);
+    border-radius: 8px;
+    padding: 0.357rem 0.75rem;
+}
+
+.card-fidelity-content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: var(--base-gray-100);
+    border-radius: 8px;
+}
+
+.card-fidelity-content-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--base-gray-200);
+    border-radius: 8px;
+    width: 5.5rem;
+    height: 5.5rem;
+
+    & img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}

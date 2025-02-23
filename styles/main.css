@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background-color: var(--base-gray-200);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 4rem 0 2rem;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.2rem;
+}
+
+.container-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas:
+        "A B B"
+        "C B B"
+        "C D D";
+
+}
+
+.card {
+    background-color: var(--base-gray-100);
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+.user-card {
+    grid-area: A;
+    display: flex;
+    gap: 1rem;
+
+    img {
+        height: 3.5rem;
+        width: 3.5rem;
+        border-radius: 10px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+}
+
+/* Title MD */
+.title-md {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+    line-height: 140%;
+    font-weight: bold;
+
+    color: var(--base-gray-600);
+}
+
+/* Title SM */
+.title-sm {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: bold;
+}
+
+/* SUBTITLE MD */
+.subtitle-md {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* SUBTITLE SM */
+.subtitle-sm {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px;
+    line-height: 140%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Text MD */
+.text-md {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: normal;
+}
+
+/* Text SM */
+.text-sm {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: normal;
+}
+
+/* Text XS */
+.text-xs {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px;
+    line-height: 140%;
+    font-weight: normal;
+}

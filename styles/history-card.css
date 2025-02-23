@@ -1,0 +1,26 @@
+.history {
+    grid-area: C;
+}
+
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem 1rem;
+}
+
+.history-item-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem 1rem;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--base-gray-400);
+}
