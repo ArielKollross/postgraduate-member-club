@@ -7,11 +7,13 @@
 body {
     font-family: 'Oxygen', sans-serif;
     background-color: var(--base-gray-200);
+    height: max-content;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .navbar {
@@ -19,7 +21,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    margin: 4rem 0 2rem;
+    margin: 2rem 2rem;
 }
 
 #search {

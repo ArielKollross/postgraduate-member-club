@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 1.5rem 1rem;
+    max-height: 17.5rem;
 }
 
 .icon {
